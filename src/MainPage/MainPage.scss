@@ -1,0 +1,31 @@
+.sidebar{
+    width: max-content;
+    background-color: var(--darkblue);
+    height: max-content;
+    border-right: 2px white solid;
+    color: var(--bright-font-color);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    transform: translateX(-100%);
+}
+.sidebar-menu-trigger:focus ~ .sidebar{
+    transform: translateX(0);
+}
+
+#sidebar_logo{
+    align-items: center;
+}
+.sidebar_list{
+    display: grid;
+    justify-content: start;
+    justify-items: start;
+}
+#main_page{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
