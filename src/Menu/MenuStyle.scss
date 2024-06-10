@@ -1,0 +1,19 @@
+
+    .header-div{
+        top: 0;
+        background-color: var(--darkblue);
+        width: -webkit-fill-available;
+        color: white;
+        border-bottom: 1px white solid;
+        max-height: 100px;
+    }
+
+    .sidebar{
+        width: 30%;
+        background-color: var(--darkblue);
+        height: max-content;
+        border-right: 2px white solid;
+        color: var(--bright-font-color);
+        min-height: 1000px;
+    }
+

@@ -1,3 +1,25 @@
+:root{
+  --main-blue:#034E70;
+  --darkblue: #0E3446;
+  --brightblue: #7FCCF0; 
+  /*Messages*/
+  --warning-message: #B31013;
+  --informations-message: #D9AD00;
+  --accept-message: #00CF1C;
+
+  /*Font colors*/
+  --dark-font-color: #000000;
+  --bright-font-color: #ffffff;
+
+  /*Comonents backgrounds*/
+  --dark-bcgk: var(--darkblue);
+  --light-bcgk: #ffffff;
+
+}
+
+/*Shadows*/
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

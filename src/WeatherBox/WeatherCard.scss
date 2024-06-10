@@ -1,0 +1,25 @@
+.weather_card{
+    background-color: var( --light-bcgk);
+    height: fit-content;
+    padding: 10px;
+    margin: 15px 10px;
+    box-shadow: 5px 5px 5px #00000017;
+    min-width: 100px;
+}
+
+.ptext{
+    font-size: 40px;
+}
+.carousel{
+    overflow: overlay;
+    position: relative;
+    display: flex;
+    /* overflow-x: auto; */
+    margin: 20px;
+}
+.weather_main_box{
+    width: -webkit-fill-available;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
